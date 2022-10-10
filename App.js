@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import ListarPokemonsComponent from './src/components/ListarPokemons';
+
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Text>Meu primeiro app em React Native !</Text>
+      <ListarPokemonsComponent />
     </View>
   );
 }
